@@ -1,0 +1,432 @@
+/* /* /*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.3.6,
+* Autoprefixer: v10.3.1
+* Browsers: last 4 version
+*/
+
+@font-face {
+    font-family: 'Mulish';
+    src: url('../fonts/Mulish-Bold.woff2') format('woff2'),
+        url('../fonts/Mulish-Bold.woff') format('woff'),
+        url('../fonts/Mulish-Bold.ttf                                                                       ') format('truetype');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+*{
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+} 
+
+body {
+    margin: 0;
+    padding: 0;
+    margin-top: 110px;
+    font-family: "Mulish";
+}
+
+/* header-qismi */
+
+.header{
+    position: fixed;
+    width: 100%;
+    height: 110px;
+    top: 0;
+    left: 0;
+    background-color: #fff;
+}
+
+.healthcare{
+    background-image: url(../img/element.png);
+    background-repeat: no-repeat;
+}
+
+.container{
+    margin: 0 auto;
+    padding-top: 40px;
+    width: 1157px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+}
+.header-nav{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+.header-nav-list{
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: end;
+}
+.header-nav-item{
+    /* font-family: sans-serif; */
+    margin: 0 10px;
+    display: inline-block;
+    list-style: none;
+}
+.header-nav-link{
+    text-decoration: none;
+    display: inline-block;
+}
+/* MAIN QISMI */
+.main-header{
+     font-family: sans-serif;
+     font-style: normal;
+     font-weight: bold;
+     font-size: 48px;
+     line-height: 56px;
+}
+.main-header-text{
+    color: #7D7987;
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 21px;
+    line-height: 32px;
+}
+.main-header-button{
+    margin: 35px 0;
+    width: 200px;
+    height: 56px;
+    background: #458FF6;
+    color: #fff;
+    border-radius: 55px;
+}
+.services{
+    background-image: url(../img/pppp.png);
+    background-repeat: no-repeat;
+}
+
+.our-services{
+    text-align: center;
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 56px;
+}    
+.main-services-line{
+    width: 56px;
+    height: 2px;
+    left: 876px;
+    top: 1107px;
+    background: #000000;
+    border-radius: 5px;  
+}
+.main-services-text{
+    left: 26.69%;
+    right: 13.81%;
+    top: 19.45%;
+    bottom: 79.52%;
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 30px;
+    text-align: center;
+    color: #7D7987;
+}
+
+/* .background-img{
+    background-image: url(../img/pppp.png);
+} */
+
+.services-box{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    margin: -18px;
+}
+.services-item{
+    margin: 18px;
+    -webkit-box-shadow: 10px 40px 50px rgba(229, 233, 246, 0.4);
+            box-shadow: 10px 40px 50px rgba(229, 233, 246, 0.4);
+    border-radius: 20px;;
+    list-style: none;
+    width: 330px;
+    height: 334px;
+    background-color: #fff;
+}
+.services-img{
+    padding: 15px 36px;
+} 
+.services-heading{
+    color: #000000;
+    padding: 0 36px;
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 56px;
+}
+.services-text{
+    padding: 0 36px;
+}
+.services-button{
+    margin: 40px 445px;
+    width: 200px;
+    height: 56px;
+    background-color: #fff;
+    color: #458FF6;
+    border: 1.4px solid #458FF6;
+    border-radius: 55px;
+}
+
+/* providers qismi */
+
+.providers-header{
+    color: #000000;
+    left: 57.94%;
+    right: 12%;
+    top: 40.46%;
+    bottom: 57.63%;
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 56px;
+
+}
+.providers-header-text{
+    color: #7D7987;
+    left: 57.94%;
+    right: 13.94%;
+    top: 43.37%;
+    bottom: 54.58%;
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 30px;
+}
+.providers-header-button{
+    margin: 17px 0;
+    background-color: #fff;
+    color: #458FF6;
+    width: 200px;
+    height: 56px;
+    left: 57.53%;
+    right: 29.97%;
+    top: 46.1%;
+    bottom: 52.95%;
+    border: 1.4px solid #458FF6;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    border-radius: 55px;
+}
+.box-1{
+    width: 400px;
+}
+/* APPS QISMI */
+.apps{
+    background-image: url(../img/tttt.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    margin-bottom: 100px;
+}
+.box-2{
+    width: 330px;
+}
+/* AVATAR QISMI */
+
+
+.container-1{
+    border-radius: 24px;
+    margin: 0 auto;
+    width: 1130px;
+    height: 420px;
+    background: -o-linear-gradient(241.82deg, #67C3F3 9.05%, #5A98F2 76.74%);
+    background: linear-gradient(208.18deg, #67C3F3 9.05%, #5A98F2 76.74%);
+}
+.container-2{
+    background-image: url(../img/mmmm.png);
+    background-repeat: no-repeat;
+    padding: 10px 40px;
+}
+.box-3{
+    margin-top: 40px;
+}
+.avatar-heading{
+    font-family: sans-serif;
+    color: #fff;
+    text-align: center;
+}
+.line{
+    background-color: #fff;
+}
+.avatar-edward{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius: 50%;
+    width: 133px;
+    height: 133px;
+    left: 364px;
+    top: 3933px;
+}
+.box-4{
+    margin-top: 60px;
+    padding: 15px 20px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+.avatar-text{
+    margin-left: 40px;
+    width: 600px;
+}
+.para-text{
+    margin-left: 40px;
+}
+.avatar-heading-2{
+    margin: 0;
+    padding: 0;
+    margin-top: 20px;
+    color: #fff;
+    left: 33.12%;
+    right: 55.38%;
+    top: 67.46%;
+    bottom: 31.72%;
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 48px;
+}
+.avatar-founder{
+    margin: 0;
+    padding: 0;
+    color: #fff;
+    left: 33.12%;
+    right: 59.44%;
+    top: 68.01%;
+    bottom: 31.18%;
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 48px;
+}
+.avatar-text{
+    left: 51.5%;
+    right: 22.25%;
+    top: 67.12%;
+    bottom: 30.83%;
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 19px;
+    line-height: 30px;
+    color: rgba(255, 255, 255, 0.9);
+}
+/* ARTICLE QISMI */
+.article-list{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+.box-box{
+    padding: 16px;
+}
+
+.article-item{
+    margin: 17px;
+    width: 310px;
+    height: 490px;
+    -webkit-box-shadow: 10px 40px 50px rgba(229, 233, 246, 0.4);
+            box-shadow: 10px 40px 50px rgba(229, 233, 246, 0.4);
+    border-radius: 20px;
+    list-style: none;
+}
+.article-heading{
+    font-family: sans-serif;
+    text-align: center;
+}
+.article-img{
+    border-radius: 20px 20px 0 0;
+}
+.article-heading-2{
+    color: #000000;
+    left: 17.06%;
+    right: 67.25%;
+    top: 82.79%;
+    bottom: 16.12%;
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 21px;
+    line-height: 32px;
+}
+.article-text{
+    color: #7D7987;
+    left: 17.06%;
+    right: 66.31%;
+    top: 84.09%;
+    bottom: 14.48%;
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 28px;
+}
+.article-link{
+    text-decoration: none;
+    color: #4089ED;
+    left: 17.06%;
+    right: 66.31%;
+    top: 85.95%;
+    bottom: 13.58%;
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 17px;
+    line-height: 28px;
+}
+.article-button{
+    margin: 0 455px;
+    margin-bottom: 30px;
+    width: 200px;
+    height: 56px;
+    background-color: #fff;
+    color: #458FF6;
+    left: 43.75%;
+    right: 43.75%;
+    top: 88.25%;
+    bottom: 10.8%;
+    border: 1.4px solid #458FF6;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    border-radius: 55px;
+}
+.footer{
+    height: 400px;
+    margin-bottom: 0;
+    background: -o-linear-gradient(266.59deg, #67C3F3 -8.57%, #5A98F2 82.96%);
+    background: linear-gradient(183.41deg, #67C3F3 -8.57%, #5A98F2 82.96%);
+    color: #fff;
+}
+.list-footer{
+    list-style: none;
+    align-items: center;
+}
+.list-footer a{
+    color: #fff;
+    text-decoration: none;
+    left: 45.38%;
+    right: 30.19%;
+    top: 95.55%;
+    bottom: 1.86%;
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 38px;
+} 

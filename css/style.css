@@ -101,6 +101,7 @@ body {
 .services{
     background-image: url(../img/pppp.png);
     background-repeat: no-repeat;
+    background-position: center;
 }
 
 .our-services{
